@@ -1,4 +1,4 @@
-LibM2-test
+LibM2-test [![Build Status](http://jenkins.libm2.org:8180/job/LibM2-test/badge/icon)](http://jenkins.libm2.org:8180/job/LibM2-test/)
 ==========
 
 Test plugin for [LibM2](http://github.com/imermcmaps/LibM2)
