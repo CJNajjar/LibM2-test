@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <logicalFolder name="f1" displayName="Commands" projectFiles="true">
+        <itemPath>src/Commands/test.cpp</itemPath>
+        <itemPath>src/Commands/test.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libm2" displayName="libm2" projectFiles="true">
+        <logicalFolder name="addr" displayName="addr" projectFiles="true">
+          <itemPath>src/libm2/addr/34083.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="game" displayName="game" projectFiles="true">
+          <logicalFolder name="building" displayName="building" projectFiles="true">
+            <itemPath>src/libm2/game/building/CLand.hpp</itemPath>
+            <itemPath>src/libm2/game/building/CManager.hpp</itemPath>
+            <itemPath>src/libm2/game/building/CObject.hpp</itemPath>
+            <itemPath>src/libm2/game/building/SObjectProto.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="CryptoPP" displayName="CryptoPP" projectFiles="true">
+            <itemPath>src/libm2/game/CryptoPP/algparam.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/config.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/cryptlib.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/misc.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/secblock.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/smartptr.h</itemPath>
+            <itemPath>src/libm2/game/CryptoPP/stdcpp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="marriage" displayName="marriage" projectFiles="true">
+            <itemPath>src/libm2/game/marriage/CManager.hpp</itemPath>
+            <itemPath>src/libm2/game/marriage/TMarriage.hpp</itemPath>
+            <itemPath>src/libm2/game/marriage/TWeddingInfo.hpp</itemPath>
+            <itemPath>src/libm2/game/marriage/WeddingMap.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="quest" displayName="quest" projectFiles="true">
+            <itemPath>src/libm2/game/quest/AArgScript.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/AStateScriptType.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/CQuestManager.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/NPC.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/PC.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/QuestState.hpp</itemPath>
+            <itemPath>src/libm2/game/quest/RewardData.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>src/libm2/game/BUFFER.hpp</itemPath>
+          <itemPath>src/libm2/game/CAffect.hpp</itemPath>
+          <itemPath>src/libm2/game/CArena.hpp</itemPath>
+          <itemPath>src/libm2/game/CAsyncSQL.hpp</itemPath>
+          <itemPath>src/libm2/game/CAttribute.hpp</itemPath>
+          <itemPath>src/libm2/game/CBuffOnAttributes.hpp</itemPath>
+          <itemPath>src/libm2/game/CBuyerThiefGlovesItemGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CClientPackageCryptInfo.hpp</itemPath>
+          <itemPath>src/libm2/game/CDropItemGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CDungeon.hpp</itemPath>
+          <itemPath>src/libm2/game/CEntity.hpp</itemPath>
+          <itemPath>src/libm2/game/CExchange.hpp</itemPath>
+          <itemPath>src/libm2/game/CFSM.hpp</itemPath>
+          <itemPath>src/libm2/game/CGrid.hpp</itemPath>
+          <itemPath>src/libm2/game/CGuild.hpp</itemPath>
+          <itemPath>src/libm2/game/CGuildManager.hpp</itemPath>
+          <itemPath>src/libm2/game/CGuildWarReserveForGame.hpp</itemPath>
+          <itemPath>src/libm2/game/CHARACTER.hpp</itemPath>
+          <itemPath>src/libm2/game/CHARACTER_MANAGER.hpp</itemPath>
+          <itemPath>src/libm2/game/CHorseRider.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputAuth.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputClose.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputDB.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputDead.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputHandshake.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputLogin.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputMain.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputP2P.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputProcessor.hpp</itemPath>
+          <itemPath>src/libm2/game/CInputTeen.hpp</itemPath>
+          <itemPath>src/libm2/game/CItem.hpp</itemPath>
+          <itemPath>src/libm2/game/CLIENT_DESC.hpp</itemPath>
+          <itemPath>src/libm2/game/CLevelItemGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CLoginData.hpp</itemPath>
+          <itemPath>src/libm2/game/CLoginKey.hpp</itemPath>
+          <itemPath>src/libm2/game/CMob.hpp</itemPath>
+          <itemPath>src/libm2/game/CMobInstance.hpp</itemPath>
+          <itemPath>src/libm2/game/CMobItemGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CPacketInfo.hpp</itemPath>
+          <itemPath>src/libm2/game/CParty.hpp</itemPath>
+          <itemPath>src/libm2/game/CPetActor.hpp</itemPath>
+          <itemPath>src/libm2/game/CPetSystem.hpp</itemPath>
+          <itemPath>src/libm2/game/CPrivManager.hpp</itemPath>
+          <itemPath>src/libm2/game/CSafebox.hpp</itemPath>
+          <itemPath>src/libm2/game/CSemaphore.hpp</itemPath>
+          <itemPath>src/libm2/game/CShop.hpp</itemPath>
+          <itemPath>src/libm2/game/CShopManager.hpp</itemPath>
+          <itemPath>src/libm2/game/CSpecialAttrGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CSpecialItemGroup.hpp</itemPath>
+          <itemPath>src/libm2/game/CState.hpp</itemPath>
+          <itemPath>src/libm2/game/CStateTemplate.hpp</itemPath>
+          <itemPath>src/libm2/game/CThreeWayWar.hpp</itemPath>
+          <itemPath>src/libm2/game/CTrigger.hpp</itemPath>
+          <itemPath>src/libm2/game/CWarMap.hpp</itemPath>
+          <itemPath>src/libm2/game/CharacterVectorInteractor.hpp</itemPath>
+          <itemPath>src/libm2/game/Cipher.hpp</itemPath>
+          <itemPath>src/libm2/game/DBManager.hpp</itemPath>
+          <itemPath>src/libm2/game/DESC.hpp</itemPath>
+          <itemPath>src/libm2/game/DESC_MANAGER.hpp</itemPath>
+          <itemPath>src/libm2/game/EVENT.hpp</itemPath>
+          <itemPath>src/libm2/game/FDWATCH.hpp</itemPath>
+          <itemPath>src/libm2/game/ForkedMapInfo.hpp</itemPath>
+          <itemPath>src/libm2/game/ITEM_MANAGER.hpp</itemPath>
+          <itemPath>src/libm2/game/LogManager.hpp</itemPath>
+          <itemPath>src/libm2/game/P2P_MANAGER.hpp</itemPath>
+          <itemPath>src/libm2/game/PIXEL_POSITION.hpp</itemPath>
+          <itemPath>src/libm2/game/SAccountTable.hpp</itemPath>
+          <itemPath>src/libm2/game/SECTREE.hpp</itemPath>
+          <itemPath>src/libm2/game/SECTREE_MANAGER.hpp</itemPath>
+          <itemPath>src/libm2/game/SECTREE_MAP.hpp</itemPath>
+          <itemPath>src/libm2/game/SEntityTable.hpp</itemPath>
+          <itemPath>src/libm2/game/SItemTable.hpp</itemPath>
+          <itemPath>src/libm2/game/SMapRegion.hpp</itemPath>
+          <itemPath>src/libm2/game/SPlayerTable.hpp</itemPath>
+          <itemPath>src/libm2/game/SQLMsg.hpp</itemPath>
+          <itemPath>src/libm2/game/SQLResult.hpp</itemPath>
+          <itemPath>src/libm2/game/SSetting.hpp</itemPath>
+          <itemPath>src/libm2/game/SShopTable.hpp</itemPath>
+          <itemPath>src/libm2/game/SSimplePlayer.hpp</itemPath>
+          <itemPath>src/libm2/game/SUseTime.hpp</itemPath>
+          <itemPath>src/libm2/game/TAffectFlag.hpp</itemPath>
+          <itemPath>src/libm2/game/TAreaInfo.hpp</itemPath>
+          <itemPath>src/libm2/game/TEMP_BUFFER.hpp</itemPath>
+          <itemPath>src/libm2/game/THorseStat.hpp</itemPath>
+          <itemPath>src/libm2/game/VID.hpp</itemPath>
+          <itemPath>src/libm2/game/_CCI.hpp</itemPath>
+          <itemPath>src/libm2/game/enums.hpp</itemPath>
+          <itemPath>src/libm2/game/fwDecl.hpp</itemPath>
+          <itemPath>src/libm2/game/global.hpp</itemPath>
+          <itemPath>src/libm2/game/lua.hpp</itemPath>
+          <itemPath>src/libm2/game/misc.hpp</itemPath>
+          <itemPath>src/libm2/game/npc_info.hpp</itemPath>
+          <itemPath>src/libm2/game/packet.hpp</itemPath>
+          <itemPath>src/libm2/game/regen.hpp</itemPath>
+          <itemPath>src/libm2/game/stdInclude.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lib" displayName="lib" projectFiles="true">
+          <itemPath>src/libm2/lib/GameSingleton.hpp</itemPath>
+          <itemPath>src/libm2/lib/dif.hpp</itemPath>
+          <itemPath>src/libm2/lib/event.hpp</itemPath>
+          <itemPath>src/libm2/lib/hook.hpp</itemPath>
+          <itemPath>src/libm2/lib/increaseSize.hpp</itemPath>
+          <itemPath>src/libm2/lib/log.hpp</itemPath>
+          <itemPath>src/libm2/lib/singleton.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <logicalFolder name="hde" displayName="hde" projectFiles="true">
+            <itemPath>src/libm2/utils/hde/hde32.h</itemPath>
+            <itemPath>src/libm2/utils/hde/table32.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="lua" displayName="lua" projectFiles="true">
+            <itemPath>src/libm2/utils/lua/lauxlib.h</itemPath>
+            <itemPath>src/libm2/utils/lua/lua.h</itemPath>
+            <itemPath>src/libm2/utils/lua/lualib.h</itemPath>
+          </logicalFolder>
+          <itemPath>src/libm2/utils/detours.h</itemPath>
+          <itemPath>src/libm2/utils/hde.h</itemPath>
+          <itemPath>src/libm2/utils/lua.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>src/libm2/Command.hpp</itemPath>
+        <itemPath>src/libm2/IQuest.hpp</itemPath>
+        <itemPath>src/libm2/LibM2.hpp</itemPath>
+        <itemPath>src/libm2/addr.hpp</itemPath>
+        <itemPath>src/libm2/revision.hpp</itemPath>
+      </logicalFolder>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/LibM2TestPlugin.${CND_DLIB_EXT}</output>
+        </linkerTool>
+      </compileType>
+      <item path="src/Commands/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Commands/test.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/Command.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/IQuest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/LibM2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/addr.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/addr/34083.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/BUFFER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CAffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CArena.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CAsyncSQL.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CAttribute.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CBuffOnAttributes.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CBuyerThiefGlovesItemGroup.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CClientPackageCryptInfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CDropItemGroup.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CDungeon.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CEntity.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CExchange.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CFSM.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CGrid.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CGuild.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CGuildManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CGuildWarReserveForGame.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CHARACTER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CHARACTER_MANAGER.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CHorseRider.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputAuth.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputClose.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputDB.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputDead.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputHandshake.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputLogin.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputMain.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputP2P.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputProcessor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CInputTeen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CItem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CLIENT_DESC.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CLevelItemGroup.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CLoginData.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CLoginKey.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CMob.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CMobInstance.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CMobItemGroup.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CPacketInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CParty.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CPetActor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CPetSystem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CPrivManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CSafebox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CSemaphore.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CShop.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CShopManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CSpecialAttrGroup.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CSpecialItemGroup.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/CState.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CStateTemplate.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CThreeWayWar.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CTrigger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CWarMap.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CharacterVectorInteractor.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/Cipher.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/algparam.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/cryptlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/misc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/secblock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/smartptr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/CryptoPP/stdcpp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/DBManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/DESC.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/DESC_MANAGER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/EVENT.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/FDWATCH.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/ForkedMapInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/ITEM_MANAGER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/LogManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/P2P_MANAGER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/PIXEL_POSITION.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SAccountTable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SECTREE.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SECTREE_MANAGER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SECTREE_MAP.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SEntityTable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SItemTable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SMapRegion.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SPlayerTable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SQLMsg.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SQLResult.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SSetting.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SShopTable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SSimplePlayer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/SUseTime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/TAffectFlag.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/TAreaInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/TEMP_BUFFER.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/THorseStat.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/VID.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/_CCI.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/building/CLand.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/building/CManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/building/CObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/building/SObjectProto.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/enums.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/fwDecl.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/global.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/lua.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/marriage/CManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/marriage/TMarriage.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/marriage/TWeddingInfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/marriage/WeddingMap.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/misc.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/npc_info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/packet.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/AArgScript.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/AStateScriptType.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/CQuestManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/NPC.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/PC.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/QuestState.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/quest/RewardData.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libm2/game/regen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/game/stdInclude.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/GameSingleton.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/dif.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/event.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/hook.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/increaseSize.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/log.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/lib/singleton.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/revision.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/detours.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/hde.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/hde/hde32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/hde/table32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/lua.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/lua/lauxlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/lua/lua.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libm2/utils/lua/lualib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
