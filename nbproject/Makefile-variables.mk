@@ -12,8 +12,8 @@ CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Generic
 CND_ARTIFACT_NAME_Debug=LibM2TestPlugin.so
 CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Generic/LibM2TestPlugin.so
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Generic/package
-CND_PACKAGE_NAME_Debug=libLibM2TestPlugin.so.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Generic/package/libLibM2TestPlugin.so.tar
+CND_PACKAGE_NAME_Debug=libLibM2-test.so.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Generic/package/libLibM2-test.so.tar
 #
 # include compiler specific variables
 #

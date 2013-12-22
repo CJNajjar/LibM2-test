@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=LibM2TestPlugin
+PROJECTNAME=LibM2-test
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -15,7 +15,7 @@ NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
 OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/LibM2TestPlugin.${CND_DLIB_EXT}
 OUTPUT_BASENAME=LibM2TestPlugin.${CND_DLIB_EXT}
-PACKAGE_TOP_DIR=libLibM2TestPlugin.so/
+PACKAGE_TOP_DIR=libLibM2-test.so/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/libLibM2TestPlugin.so/lib"
+makeDirectory "${NBTMPDIR}/libLibM2-test.so/lib"
 copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}" 0644
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libLibM2TestPlugin.so.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libLibM2-test.so.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libLibM2TestPlugin.so.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libLibM2-test.so.tar *
 checkReturnCode
 
 # Cleanup

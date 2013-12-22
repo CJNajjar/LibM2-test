@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/src/Commands/test.o \
+	${OBJECTDIR}/src/Quest/Test.o \
 	${OBJECTDIR}/src/main.o
 
 
@@ -67,6 +68,11 @@ ${OBJECTDIR}/src/Commands/test.o: src/Commands/test.cpp
 	${MKDIR} -p ${OBJECTDIR}/src/Commands
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -Wall -std=c++11 -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Commands/test.o src/Commands/test.cpp
+
+${OBJECTDIR}/src/Quest/Test.o: src/Quest/Test.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src/Quest
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -Wall -std=c++11 -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Quest/Test.o src/Quest/Test.cpp
 
 ${OBJECTDIR}/src/main.o: src/main.cpp 
 	${MKDIR} -p ${OBJECTDIR}/src
