@@ -1,5 +1,6 @@
 #include "libm2/LibM2.hpp"
 #include "Commands/test.hpp"
+#include "Quest/Test.hpp"
 using namespace libm2;
 /**
  * gets called when the plugin gets loaded
@@ -8,7 +9,11 @@ using namespace libm2;
  * @return 
  */
 extern "C" bool initialize(){
+    // !!!NOTE!!!
+    // this is bad practice - you wont be able to deallocate or access the objects anymore
+    // !!!NOTE!!!
     LibM2::addCommand("test",new Commands::Test());
+    LibM2::addQuestTable(new Quest::Test());
     return true;
 }
 /**

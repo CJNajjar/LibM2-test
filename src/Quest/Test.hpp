@@ -3,6 +3,7 @@
 #include "../libm2/IQuest.hpp"
 namespace Quest{
     class Test: public IQuest{
+    public:
         Test();
         virtual std::string getName();
         static int get_stamina(lua_State* L);
